@@ -18,3 +18,8 @@
   height: 350px;
   width: 350px;
 }
+
+#btn2 {
+  background-color: blue;
+  color: white;
+}
