@@ -1,0 +1,26 @@
+.deal-image-wrapper {
+  margin-bottom: 10px;
+  margin-top: 200px;
+}
+
+#glasses {
+  position: relative;
+  width: 100px;
+  top: -20px;
+}
+
+#btn {
+  background-color: blue;
+  color: white;
+}
+
+#img {
+  height: 350px;
+  width: 350px;
+}
+
+#btn2 {
+  background-color: blue;
+  color: white;
+  display: none;
+}
