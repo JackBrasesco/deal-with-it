@@ -10,6 +10,7 @@ button.click(function() {
 
 button2.click(function() {
   dontWithIt()
+  switchToDeal()
 })
 
 function switchToReset() {
@@ -17,7 +18,7 @@ function switchToReset() {
   button2.css({display: "inline-block"});
 }
 
-function switchToReset() {
+function switchToDeal() {
   button.css({display: "inline-block"});
   button2.css({display: "none"});
 }
@@ -27,5 +28,5 @@ function dealWithIt() {
 }
 
 function dontWithIt() {
-    $("#glasses").animate({top: "0px"}, 1500);
+    $("#glasses").animate({top: "-20px"}, 1500);
 }
