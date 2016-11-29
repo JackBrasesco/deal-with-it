@@ -9,7 +9,7 @@ button.click(function() {
 })
 
 button2.click(function() {
-  
+  dontWithIt()
 })
 
 function switchToReset() {
@@ -17,10 +17,15 @@ function switchToReset() {
   button2.css({display: "inline-block"});
 }
 
+function switchToReset() {
+  button.css({display: "inline-block"});
+  button2.css({display: "none"});
+}
+
 function dealWithIt() {
-    $("#glasses").animate({top: "283px" }, 1500)
+    $("#glasses").animate({top: "283px" }, 1500);
 }
 
 function dontWithIt() {
-  $("#glasses
+    $("#glasses").animate({top: "0px"}, 1500);
 }
