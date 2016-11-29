@@ -1,8 +1,8 @@
-var button = $()
+var button = $("#btn");
 
-$(function() {
-  button.click(dealWithIt)
-})
+button.click(function()
+
+
 
 function dealWithIt() {
     $("#glasses").animate({}, 1500)
