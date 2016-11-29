@@ -1,4 +1,5 @@
 var button = $("#btn");
+var button2 = $("#btn2");
 
 var btnpress = 0;
 
@@ -9,7 +10,8 @@ button.click(function() {
 
 
 function switchToReset() {
-  button.attr("value", "Reset")
+  button.css({display: "none"});
+  
 }
 
 function dealWithIt() {
