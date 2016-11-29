@@ -1,6 +1,8 @@
 var button = $("#btn");
 
-button.click(function()
+button.click(function() {
+  
+})
 
 
 
