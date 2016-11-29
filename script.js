@@ -9,7 +9,7 @@ button.click(function() {
 
 
 function switchToReset() {
-  console.log("hi")
+  button.attr("value", "Reset")
 }
 
 function dealWithIt() {
