@@ -7,5 +7,5 @@ button.click(function() {
 
 
 function dealWithIt() {
-    $("#glasses").animate({}, 1500)
+    $("#glasses").animate({top: "500px" }, 1500)
 }
